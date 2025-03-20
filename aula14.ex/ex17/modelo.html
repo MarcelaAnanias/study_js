@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css"> <!--Chama o arquivo CSS clicando no link-->
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div>
+            <p>Número: 
+                <!-- Campo de entrada onde o usuário pode digitar um número -->
+                <input type="number" name="num" id="txtnum">
+                
+                <!-- Botão que chama a função tabuada() quando clicado -->
+                <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+            </p>
+        </div>
+        <div>
+            <!-- Elemento <select> que exibirá as opções da tabela de multiplicação -->
+            <!-- O atributo size="10" define a altura do elemento <select> mostrando 10 opções visíveis -->
+            <select name="tabuada" id="seltab" size="10">
+                <!-- Opção padrão que instrui o usuário a digitar um número -->
+                <option>Digite um número acima</option>    
+            </select>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Curso em Vídeo</p>
+    </footer>
+    <script src="script.js"></script> <!--Chama o arquivo JS clicando no link-->
+</body>
+</html>

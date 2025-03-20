@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(136, 188, 255);
+    font: normal 15pt Verdana;
+}
+header {
+    color: white;
+    text-align: center;
+    
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 520px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.444);
+    align-items: center; /* Centraliza o conteúdo dentro do section */
+    margin-top: 60px; /* Espaço para o header */
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+    
+}
+img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+
+  
+
+ #saudacao {
+    font-size: 1.5em; /* Tamanho da fonte para a saudação */
+    color: #333; /* Cor do texto da saudação */
+}

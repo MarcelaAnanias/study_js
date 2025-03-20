@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Nacionalidade</title>
+</head>
+<body>
+    <h1>Sua Nacionalidade</h1>
+    Em qual país você reside? <input type="text" id="txtna">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular() {
+            var txtn = document.querySelector('input#txtna')
+            var res = document.querySelector('div#res')
+            var nac = txtn.value.trim(); // Remove espaços em branco no início e no fim
+            nac.innerHTML = `Se você reside em ${nac}`
+            if (nac == 'Brasil') {
+                res.innerHTML += `<p>Você é <strong>Brasileiro</strong></p>` //+= é atribuição mais adição,ou seja recebe um item 
+            //e ao mesmo tempo adiciona outro
+            } else {
+                res.innerHTML += `<p>Você é <strong>Estrangeiro</strong></p>`
+            }
+        }
+    </script>
+</body>
+</html>

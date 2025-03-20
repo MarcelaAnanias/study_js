@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{ 
+        background-color: black;
+        color: white;
+        font: normal 20pt Verdana;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Projeto DOM Curso JS</h1>
+    <p>Resultado</p>
+    <p> Document Object Model</p>
+    <div id='msg'>Clique aqui</div>
+    <script>
+        var corpo = document.body
+        var p1 = document.getElementsByTagName('p')[0] //Selecionando po Tag
+        //var d = document.getElementById('msg') Selecionando por ID
+        //var d = document.getElementsByName('msg')[0] Selecionando por Nome 
+        //var d = document.getElementsByClassName('msg')[0] Selecionando por Classe
+        // sempre que for "Elements" tem que por [] para selecionar a qual está se referindo
+       var d = document.querySelector('div.msg') //Selecionando por Seletor
+    </script>
+
+</body>
+</html>
