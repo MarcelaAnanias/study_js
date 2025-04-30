@@ -17,7 +17,7 @@ const shirt = new Produtos("Camisa golva V", 20) //Criando um produto e seus val
 console.log(shirt.name)
 console.log(shirt.produtoComDesconto(50)) //Definindo 50% de desconto
 
-const livro = new Produtos("A lágrima de vridro", 60)
+const livro = new Produtos("A lágrima de vidro", 60)
 
 console.log(livro.name)
 console.log(livro.produtoComDesconto(10))
