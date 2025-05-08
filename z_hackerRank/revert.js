@@ -12,3 +12,7 @@ let arr2 = [1, 2, 3];
 let reversed = [...arr2].reverse(); // ou arr.slice().reverse()
 console.log(reversed); // Saída: [3, 2, 1]
 console.log(arr2);      // Original permanece: [1, 2, 3]
+
+
+
+

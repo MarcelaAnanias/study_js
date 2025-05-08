@@ -26,6 +26,8 @@ let arr = [
 
 }
 
+console.log(diagonalDifference(arr))
+
 
 // RESOLVA A MATRIZ 2
 //Soma dos elementos nas bordas da matriz
@@ -55,6 +57,8 @@ let arrTotal = [
     return console.log(soma)
 }
 
+console.log(totalBorda(arrTotal))
+
 
 
 // RESOLVA A MATRIZ 3
@@ -80,3 +84,10 @@ let matriz = [
         }
         return somaCantos;
     }
+
+console.log(totalCantos(matriz))
+
+
+
+
+
