@@ -36,7 +36,7 @@ function media(notas){
 
     const filterMedia = notas.filter((nota) => nota >= mediaNotas) //Filtrando
 
-    return filterMedia;
+    return filterMedia.length;
 }
 
 console.log(media(notas))

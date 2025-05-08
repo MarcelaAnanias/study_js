@@ -10,6 +10,10 @@ const numCresc = array.filter((n)=> { // filter = filtro da array
 
 console.log(numCresc)
 
+
+/////////////////////////////
+
+
 const user = [
     {name: "Pedro", available: true},
     {name: "Tiago", available: true},
